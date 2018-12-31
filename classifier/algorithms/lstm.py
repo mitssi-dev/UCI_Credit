@@ -7,12 +7,13 @@ from .. import Manager
 
 import os
 
+# 나 수정 더했어!!
 
 def make_model(model_name, input_shape, batch_size, num_epochs, x_train, y_train):
     """
     LSTM 기법으로 데이터를 학습함.
 
-    Parameters
+    Parameters  
     ----------
     model_name : str
         모델의 이름(저장되는 파일 이름)
